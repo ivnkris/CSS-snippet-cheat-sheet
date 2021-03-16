@@ -1,5 +1,9 @@
+/* colour palette */
 :root {
   --background-colour: rgb(31, 29, 29);
+  --higher-opacity-pink: rgba(232, 102, 236, 0.6);
+  --lower-opacity-pink: rgba(232, 102, 236, 0.3);
+  --glowing-pink: rgba(232, 102, 236, 1);
 }
 
 * {
