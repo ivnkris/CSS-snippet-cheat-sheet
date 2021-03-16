@@ -1,5 +1,13 @@
+:root {
+  --background-colour: rgb(31, 29, 29);
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(31, 29, 29);
+  background-color: var(--background-colour);
   margin: 0px;
   height: 100vh;
 }
