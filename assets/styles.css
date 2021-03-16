@@ -4,6 +4,7 @@
   --higher-opacity-pink: rgba(232, 102, 236, 0.6);
   --lower-opacity-pink: rgba(232, 102, 236, 0.3);
   --glowing-pink: rgba(232, 102, 236, 1);
+  --white: #fff;
 }
 
 * {
@@ -32,10 +33,12 @@ header {
 
 header h1 {
   font-size: 3rem;
+  color: var(--glowing-pink);
 }
 
 header p {
   margin: 1rem 5rem;
+  color: var(--white);
 }
 
 main h2,
@@ -53,8 +56,14 @@ footer h2 {
   margin: 2rem;
   text-align: center;
   max-width: 30%;
+  color: var(--glowing-pink);
 }
 
 pre {
   text-align: left;
+  color: var(--white);
+}
+
+footer {
+  color: var(--glowing-pink);
 }
